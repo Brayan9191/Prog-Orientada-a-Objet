@@ -1,5 +1,5 @@
 class Perro:
-    def int (self,nombre,raza):
+    def __init__(self,nombre,raza):
         self.nombre = nombre
         self.raza = raza
     
