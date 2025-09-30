@@ -12,7 +12,7 @@ class Vehiculo():
         self.velocidad = atributo_velocidad
             
     def Acelerar (self):
-        nombre = input("Escriba la velocidad que aumento: ")
+        velocidad += input("Escriba la velocidad que aumento: ")
     def Hablar (self):
         return f"Mi profesion es: {self.profesion} y estoy hablando sobre el metodo constructor"
     def Estudiar (self):
@@ -43,3 +43,4 @@ while True:
             
     else:
         print ("Opcion NO valida")
+
